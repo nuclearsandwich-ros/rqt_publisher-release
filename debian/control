@@ -1,0 +1,12 @@
+Source: ros-turbulent-rqt-publisher
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ros-workspace
+Homepage: http://wiki.ros.org/rqt_publisher
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rqt-publisher
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-catkin-pkg-modules, ros-turbulent-python-qt-binding (>= 0.2.19), ros-turbulent-qt-gui-py-common, ros-turbulent-rqt-gui, ros-turbulent-rqt-gui-py, ros-turbulent-rqt-py-common, ros-turbulent-ros-workspace
+Description: rqt_publisher provides a GUI plugin for publishing arbitrary messages with fixed or computed field values.
