@@ -1,0 +1,12 @@
+Source: ros-verystable-rqt-publisher
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-ros-workspace
+Homepage: http://wiki.ros.org/rqt_publisher
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rqt-publisher
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-catkin-pkg-modules, ros-verystable-python-qt-binding (>= 0.2.19), ros-verystable-qt-gui-py-common, ros-verystable-rqt-gui, ros-verystable-rqt-gui-py, ros-verystable-rqt-py-common, ros-verystable-ros-workspace
+Description: rqt_publisher provides a GUI plugin for publishing arbitrary messages with fixed or computed field values.
